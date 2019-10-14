@@ -4,6 +4,13 @@
 
 import os
 import json
+import argparse
+
+
+
+
+parser.add_argument("--name",'-n', action = 'store', type = str, help = "Specify the name of the custom list to open", default = "sites")
+
 
 
 pathToApplications =  "/Applications"
@@ -13,8 +20,10 @@ def getLinks():
 	links = [];
 	with open('favoriteList') as json_file:
 		data = json.load(json_file)
-		for p in data['keywords']:
-			links.append(p)
+		for l in data['lists']:
+			if l['name'] == args.name:
+				for site in l['keywords']:
+					links.append(site)
 		return links
 
 
@@ -26,6 +35,8 @@ def openLinks():
 		
 	os.system("cd /Applications && open Google\ Chrome.app/ --args --new-window -a  %s" % (linksString))
 
+
+args = parser.parse_args()
 links = getLinks()
 openLinks()
 
