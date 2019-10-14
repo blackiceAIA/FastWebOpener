@@ -1,3 +1,9 @@
-https://www.facebook.com
-https://www.github.com
-https://www.apple.com
+{
+	"name": "sites",
+	"baseURL": "",
+	"keywords": [
+		"https://www.google.com",
+		"https://www.apple.com",
+		"https://www.facebook.com"
+	]
+}
