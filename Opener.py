@@ -7,7 +7,7 @@ import json
 import argparse
 
 
-
+parser = argparse.ArgumentParser(description = "---------------- \n FastWebOpener Script \n open your bookmark list INSTANTLY")
 
 parser.add_argument("--name",'-n', action = 'store', type = str, help = "Specify the name of the custom list to open", default = "sites")
 
