@@ -1,9 +1,22 @@
 {
-	"name": "sites",
-	"baseURL": "",
-	"keywords": [
-		"https://www.google.com",
-		"https://www.apple.com",
-		"https://www.facebook.com"
+	"lists": [
+		{
+			"name": "sites",
+			"baseURL": "",
+			"keywords": [
+				"https://www.google.com",
+				"https://www.apple.com"
+			]
+		},
+		{
+			"name": "social",
+			"baseURL": "",
+			"keywords": [
+				"https://www.facebook.com"
+			]
+		}
+
 	]
 }
+
+
