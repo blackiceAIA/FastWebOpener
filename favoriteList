@@ -14,8 +14,14 @@
 			"keywords": [
 				"https://www.facebook.com"
 			]
+		},
+		{
+			"name": "social",
+			"baseURL": "",
+			"keywords": [
+				"https://www.facebook.com"
+			]
 		}
-
 	]
 }
 
