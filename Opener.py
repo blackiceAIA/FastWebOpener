@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser(description = "---------------- \n FastWebOpene
 
 parser.add_argument("--name",'-n', action = 'store', type = str, help = "Specify the name of the custom list to open", default = "sites")
 
-parser.add_argument("--incognito",'-i', action = 'store_true', help = "Specify the name of the custom list to open", default = False)
+parser.add_argument("--incognito",'-i', action = 'store_true', help = "Launch the broswer in private mode", default = False)
 
 
 
