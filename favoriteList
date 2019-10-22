@@ -16,10 +16,10 @@
 			]
 		},
 		{
-			"name": "social",
+			"name": "news",
 			"baseURL": "",
 			"keywords": [
-				"https://www.facebook.com"
+				"https://nytimes.com"
 			]
 		}
 	]
